@@ -45,7 +45,7 @@ public class HomePage extends BaseClass {
 	
 	public void signOutFromApp() throws InterruptedException
 	{
-		//wUtil.waitAndClick(administratorIMG);
+		wUtil.waitAndClick(administratorIMG);
 		wUtil.mouseOver(driver, administratorIMG);
 		signOutButton.click();
 		
