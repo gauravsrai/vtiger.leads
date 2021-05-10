@@ -9,7 +9,7 @@ import com.crm.vtiger.leadPOMclass.HomePage;
 
 public class TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDownTest extends BaseClass {
 	
-	@Test
+	@Test(groups="smokeTest")
 	public void TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDown() throws Throwable
 	{
 		HomePage hp=new HomePage(driver);

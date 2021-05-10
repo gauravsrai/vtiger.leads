@@ -24,7 +24,7 @@ public class BaseClass {
 	public FileUtility fUtil=new FileUtility();
 	public JavaUtility ju=new JavaUtility();
 	public WebDriverUtility wUtil=new WebDriverUtility();
-	public static WebDriver sdriver;
+	public static WebDriver staticDriver;
 	public HomePage hp;
 	
 	
@@ -55,7 +55,7 @@ public class BaseClass {
 		}
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		sdriver=driver;
+		staticDriver=driver;
 	}
 	
 	

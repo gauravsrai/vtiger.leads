@@ -26,7 +26,7 @@ import com.google.common.io.Files;
  * @Chaitra
  */
 
-public class WebDriverUtility {
+public class WebDriverUtility extends BaseClass {
 	
 	/**
 	 * this method wait for 20 sec for page loading
@@ -184,11 +184,13 @@ public class WebDriverUtility {
     	driver.switchTo().frame(idOrName);
     } 
 
-    public void takeScreenshot(WebDriver driver, String screenshotName) throws Throwable {
+    public String takeScreenshot(WebDriver driver, String screenshotName) throws Throwable {
+    	String path="./screenshot/"+screenshotName+ju.getCurrentSystemDate()+".PNG";
     	TakesScreenshot ts=(TakesScreenshot)driver;
     	File src=ts.getScreenshotAs(OutputType.FILE);
-    	File dest=new File("./screenshot/"+screenshotName+".PNG");
+    	File dest=new File(path);
     	Files.copy(src, dest);
+    	return path;
     }
     
     public void pressEnterKey() throws Throwable {

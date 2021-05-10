@@ -14,7 +14,7 @@ import com.crm.vtiger.GenericUtils.WebDriverUtility;
 
 public class TC_07_CreateNewLeadBySelectingDifferentIndustryFromDropDownTest {
 	
-	@Test
+	@Test(groups="smokeTest")
 	public void TC_07_CreateNewLeadBySelectingDifferentIndustryFromDropDown()
 	{
 		

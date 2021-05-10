@@ -13,7 +13,7 @@ import com.crm.vtiger.GenericUtils.JavaUtility;
 import com.crm.vtiger.GenericUtils.WebDriverUtility;
 
 public class TC_10_CreateNewLeadByAssignToGroupTest {
-	@Test
+	@Test(groups="regressionTest")
 	public void TC_10_CreateNewLeadByAssignToGroup()
 	{
 		JavaUtility ju=new JavaUtility();

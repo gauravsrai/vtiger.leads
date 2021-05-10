@@ -3,6 +3,8 @@ package com.crm.vtiger.GenericUtils;
 import java.util.Date;
 import java.util.Random;
 
+import org.testng.annotations.Test;
+
 /**
  * This class contains java specific generic libraries
  * @author Chaitra
@@ -26,13 +28,12 @@ public class JavaUtility {
 	 * Generate current system date
 	 * @author Chaitra
 	 */
-	public String getCurrentSystemDate()
+	public  String getCurrentSystemDate()
 	{
 		Date date = new Date();
 		String currentDate=date.toString();
-		return currentDate;
+	    return currentDate.replace(" ", "_").replace(":","_");
 		
 	}
 	
-
 }

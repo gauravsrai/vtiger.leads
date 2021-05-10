@@ -14,7 +14,7 @@ import com.crm.vtiger.GenericUtils.WebDriverUtility;
 
 public class TC_08_CreateNewLeadBySelectingLeadStatusFromDropDownTest {
 	
-	@Test
+	@Test(groups="smokeTest")
 	public void TC_08_CreateNewLeadBySelectingLeadStatusFromDropDown()
 	{
 		JavaUtility ju=new JavaUtility();

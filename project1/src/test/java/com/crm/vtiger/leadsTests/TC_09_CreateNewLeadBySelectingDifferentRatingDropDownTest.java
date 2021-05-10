@@ -14,7 +14,7 @@ import com.crm.vtiger.GenericUtils.WebDriverUtility;
 
 public class TC_09_CreateNewLeadBySelectingDifferentRatingDropDownTest {
 	
-	@Test
+	@Test(groups="regressionTest")
 	public void TC_09_CreateNewLeadBySelectingDifferentRatingDropDown()
 	{
 		JavaUtility ju=new JavaUtility();

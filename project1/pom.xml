@@ -60,6 +60,13 @@
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.21</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.1</version>
+</dependency>
 <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
 <dependency>
     <groupId>org.codehaus.jackson</groupId>
@@ -87,7 +94,7 @@
 								<configuration>
 									<suiteXmlFiles>
 										<!-- TestNG suite XML files -->
-										<suiteXmlFile>testng_full_regression.xml</suiteXmlFile>
+										<suiteXmlFile>testng_Regression_Testing.xml</suiteXmlFile>
 									</suiteXmlFiles>
 								</configuration>
 							</plugin>
@@ -107,7 +114,7 @@
 								<configuration>
 									<suiteXmlFiles>
 										<!-- TestNG suite XML files -->
-										<suiteXmlFile>testng_smokeTest.xml</suiteXmlFile>
+										<suiteXmlFile>testng_smokeTesting.xml</suiteXmlFile>
 									</suiteXmlFiles>
 								</configuration>
 							</plugin>
