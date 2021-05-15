@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.google.gmail.DataBaseUtils">
+      <class name="Sample.Sample4_Test">
         <methods>
-          <include name="getExecuteQuery"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.google.gmail.DataBaseUtils -->
+      </class> <!-- Sample.Sample4_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

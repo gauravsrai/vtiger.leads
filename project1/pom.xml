@@ -94,7 +94,7 @@
 								<configuration>
 									<suiteXmlFiles>
 										<!-- TestNG suite XML files -->
-										<suiteXmlFile>testng_Regression_Testing.xml</suiteXmlFile>
+										<suiteXmlFile>testng_regression_lead.xml</suiteXmlFile>
 									</suiteXmlFiles>
 								</configuration>
 							</plugin>

@@ -56,7 +56,8 @@ public class DataBaseUtilities {
 
 			// executing the query
 			 result = con.createStatement().executeQuery(query);
-				return result;
+			return result;
+			
 		
 	}
 	

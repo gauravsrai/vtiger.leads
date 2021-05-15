@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.vtiger.leadsTests.TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDownTest">
+      <class name="com.crm.vtiger.sampleTests.CreateContactWithOrganizationTest">
         <methods>
-          <include name="configAT"/>
-          <include name="configBS"/>
-          <include name="configBC"/>
-          <include name="setUp"/>
-          <include name="TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDown"/>
-          <include name="tearDown"/>
-          <include name="configAS"/>
-          <include name="configBT"/>
-          <include name="configAC"/>
+          <include name="createContact"/>
         </methods>
-      </class> <!-- com.crm.vtiger.leadsTests.TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDownTest -->
+      </class> <!-- com.crm.vtiger.sampleTests.CreateContactWithOrganizationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-01T22:08:05 IST" name="Default suite" finished-at="2021-05-01T22:08:06 IST" duration-ms="674">
+  <suite started-at="2021-05-12T23:50:16 IST" name="Suite" finished-at="2021-05-12T23:53:01 IST" duration-ms="164811">
     <groups>
     </groups>
-    <test started-at="2021-05-01T22:08:05 IST" name="Default test" finished-at="2021-05-01T22:08:06 IST" duration-ms="674">
-      <class name="com.google.gmail.DataBaseUtils">
-        <test-method signature="getExecuteQuery()[pri:0, instance:com.google.gmail.DataBaseUtils@366647c2]" started-at="2021-05-01T22:08:05 IST" name="getExecuteQuery" finished-at="2021-05-01T22:08:06 IST" duration-ms="596" status="PASS">
+    <test started-at="2021-05-12T23:50:16 IST" name="FireFoxTest" finished-at="2021-05-12T23:52:31 IST" duration-ms="135134">
+      <class name="Sample.Sample9_Test">
+        <test-method signature="signInToSkillRayApp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Sample.Sample9_Test@41fecb8b]" started-at="2021-05-12T23:50:16 IST" name="signInToSkillRayApp" finished-at="2021-05-12T23:52:31 IST" duration-ms="135029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getExecuteQuery -->
-      </class> <!-- com.google.gmail.DataBaseUtils -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- signInToSkillRayApp -->
+      </class> <!-- Sample.Sample9_Test -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2021-05-12T23:50:16 IST" name="ChromeTest" finished-at="2021-05-12T23:53:01 IST" duration-ms="164811">
+      <class name="Sample.Sample9_Test">
+        <test-method signature="signInToSkillRayApp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Sample.Sample9_Test@1f97cf0d]" started-at="2021-05-12T23:50:16 IST" name="signInToSkillRayApp" finished-at="2021-05-12T23:53:01 IST" duration-ms="164736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInToSkillRayApp -->
+      </class> <!-- Sample.Sample9_Test -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>

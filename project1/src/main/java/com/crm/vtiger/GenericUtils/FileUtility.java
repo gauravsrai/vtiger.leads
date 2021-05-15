@@ -38,7 +38,7 @@ public class FileUtility {
 		Object object = parser.parse(reader);
 		JSONObject jsonObject = (JSONObject)object;
 		String value=jsonObject.get(jsonKey).toString();
-		return value;
+		return valu e;
 	}
 
 }

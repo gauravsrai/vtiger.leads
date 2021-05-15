@@ -2,11 +2,13 @@ package com.crm.vtiger.leadsTests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.vtiger.GenericUtils.BaseClass;
 import com.crm.vtiger.leadPOMclass.HomePage;
 
+@Listeners(com.crm.vtiger.GenericUtils.ListImg.class)
 public class TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDownTest extends BaseClass {
 	
 	@Test(groups="smokeTest")
@@ -15,7 +17,7 @@ public class TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDownTest e
 		HomePage hp=new HomePage(driver);
 		hp.toClickOnMenuLink();
 		
-		driver.findElement(By.xpath("//img[@title='Create Lead...']")).click();
+		driver.findElement(By.xpath("//img[@title='Create Lea...']")).click();
 		
 		driver.findElement(By.name("lastname")).sendKeys(eUtil.getExcelData("lead", "TC_06", "lastName")+ju.getRandomData());
 		

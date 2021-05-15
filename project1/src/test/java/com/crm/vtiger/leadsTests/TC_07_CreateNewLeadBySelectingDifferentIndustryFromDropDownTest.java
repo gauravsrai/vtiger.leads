@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 
 import com.crm.vtiger.GenericUtils.JavaUtility;
 import com.crm.vtiger.GenericUtils.WebDriverUtility;
-
 public class TC_07_CreateNewLeadBySelectingDifferentIndustryFromDropDownTest {
 	
 	@Test(groups="smokeTest")

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browserName" value="chrome"></parameter> 
+  <parameter name="username" value="admin"></parameter> 
+  <parameter name="password" value="admin"></parameter> 
+     <classes>
+      <class name="Sample.Sample9_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="FireFoxTest">
+  <parameter name="browserName" value="firefox"></parameter>
+   <parameter name="username" value="manager"></parameter> 
+  <parameter name="password" value="manager"></parameter> 
+    <classes>
+      <class name="Sample.Sample9_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
