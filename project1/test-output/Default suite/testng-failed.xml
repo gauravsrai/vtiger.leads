@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.vtiger.sampleTests.CreateContactWithOrganizationTest">
+      <class name="com.actitime.LoginToActiTimeTest">
         <methods>
-          <include name="createContact"/>
+          <include name="loginToApplication"/>
         </methods>
-      </class> <!-- com.crm.vtiger.sampleTests.CreateContactWithOrganizationTest -->
+      </class> <!-- com.actitime.LoginToActiTimeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

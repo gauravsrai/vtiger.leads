@@ -1,5 +1,6 @@
 package com.crm.vtiger.sampleTests;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class Sample1Test {
@@ -27,6 +28,7 @@ public class Sample1Test {
 		System.out.println(password1);
 		System.out.println(url1);
 	}
+	
 
 }
  

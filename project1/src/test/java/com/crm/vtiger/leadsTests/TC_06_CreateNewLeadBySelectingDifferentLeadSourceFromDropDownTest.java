@@ -17,7 +17,7 @@ public class TC_06_CreateNewLeadBySelectingDifferentLeadSourceFromDropDownTest e
 		HomePage hp=new HomePage(driver);
 		hp.toClickOnMenuLink();
 		
-		driver.findElement(By.xpath("//img[@title='Create Lea...']")).click();
+		driver.findElement(By.xpath("//img[@title='Create Lead...']")).click();
 		
 		driver.findElement(By.name("lastname")).sendKeys(eUtil.getExcelData("lead", "TC_06", "lastName")+ju.getRandomData());
 		
